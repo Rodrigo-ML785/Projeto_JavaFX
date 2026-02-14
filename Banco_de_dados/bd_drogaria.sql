@@ -18,7 +18,7 @@ CREATE TABLE CategoriaProduto (
 -- Tabela Telefone
 CREATE TABLE Telefone (
   ID_Telefone INT AUTO_INCREMENT PRIMARY KEY,
-  Num_Telefone VARCHAR(15) NOT NULL  -- Telefone como VARCHAR para incluir formatos com DDD e possíveis caracteres especiais
+  Num_Telefone VARCHAR(15) NOT NULL
 );
 
 -- Tabela Cliente
@@ -27,7 +27,7 @@ CREATE TABLE Cliente (
   ID_Telefone INT,
   Nome_Cliente VARCHAR(255) NOT NULL,
   Endereco VARCHAR(255) NOT NULL,
-  CPF VARCHAR(11) NOT NULL,  -- CPF pode ser VARCHAR (11) para armazenar o número com zero à esquerda
+  CPF VARCHAR(11) NOT NULL,
   Data_nascimento DATE NOT NULL,
   Email VARCHAR(255) NOT NULL,
   Senha VARCHAR(255) NOT NULL,
