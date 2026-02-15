@@ -9,13 +9,25 @@
 </div>
 
 <p style="text-align: justify;">
-<b>Projeto de login, cadastro e caixa de uma drogaria, feito com Java, utilizando o Framework JavaFX, esse projeto utiliza JDK8, então tenha certeza que sua plataforma possua JDK8 instalado. Também utiliza o conector
-do mysql (mysql-connector-java-5.1.6-bin.jar), então caso sua plataforma não reconheça o conector, adicione-o manualmente.
+<b>Sistema de Gerenciamento de Drogaria</b>: Projeto focado em login, cadastro e controle de caixa.
 
-certifique-se também que possui o plugin do javaFX instalado em sua IDE (JavaFX 2 - version 1.42)
 
-Para subir a base de dados do projeto, selecione a pasta de banco de dados e importe o arquivo .sql no XAMPP, (instale o xampp, no control panel do xampp ative as opções "apache" e "mysql", vá para "localhost" na sua barra de pesquisa do navegador, depois clique na opção "phpmyadmin" na aba de cima, depois clique em importar na aba de cima e selecione o arquivo .sql do banco, após isso a base de dados irá funcionar normalmente")
-</b>cd
+
+
+<b>🛠️ Requisitos de Ambiente:</b>
+<ul>
+<li><b>Java 8 (Obrigatório):</b> Certifique-se de utilizar um JDK 8 que já possua o <b>JavaFX</b> integrado (ex: BellSoft Liberica Full JDK ou Oracle JDK 8).</li>
+<li><b>MySQL Connector:</b> O projeto utiliza o driver <code>mysql-connector-java-5.1.6-bin.jar</code> (incluso na pasta <code>dist/lib</code>). Caso necessário, adicione-o manualmente ao Build Path da sua IDE.</li>
+<li><b>IDE:</b> Recomendado configurar o <b>Compiler Compliance</b> para 1.8.</li>
+</ul>
+
+<b>🗄️ Configuração do Banco de Dados:</b>
+
+Instale o <b>XAMPP</b> e ative os módulos "Apache" e "MySQL".
+
+Acesse o <b>phpMyAdmin</b> (localhost/phpmyadmin).
+
+Crie um novo banco de dados e utilize a opção <b>Importar</b> para subir o arquivo <code>.sql</code> localizado na pasta <code>Banco_de_dados</code> do projeto.
 
 </p>
 
