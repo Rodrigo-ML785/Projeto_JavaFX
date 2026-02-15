@@ -34,7 +34,7 @@ Crie um novo banco de dados e utilize a opção <b>Importar</b> para subir o arq
 ### <p style="font-weight: bold">Devs:</p>
 
 <ul>
-  <li>Rodrigo Melo de Oliveira Santos: <a href="https://github.com/RODRIGOMEL" target="_blank">RODRIGOMEL</a></li>
+  <li>Rodrigo Melo de Oliveira Santos: <a href="https://github.com/Rodrigo-ML785" target="_blank">Rodrigo-ML785</a></li>
   <li>Pedro Eduardo Freire Marcos: <a href="https://github.com/Pe-ef95">Pe-ef95</a></li>
   <li>Matheus Silva: <a href="https://github.com/MatheusSilvaPerei">MatheusSilvaPerei</a></li>
 </ul>
